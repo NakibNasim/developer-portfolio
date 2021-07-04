@@ -5,8 +5,11 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 span{color: goldenrod;}
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 20px;
 }
@@ -37,4 +40,33 @@ section{
 .nai{
     padding-left: 0%;
     padding-right: 100px;
+}
+.hobe{
+    display: flex;
+    background-image: url(picture/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 8%;
+}
+.last-footer{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.experienceitem{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+}
+#webdeveloper{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#babydeveloper{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
